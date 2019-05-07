@@ -1,0 +1,1 @@
+Run postgres and pgadmin together in docker.  Requires a .env file with configuration variables.
