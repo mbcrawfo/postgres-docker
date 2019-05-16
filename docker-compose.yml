@@ -3,6 +3,7 @@ version: '3.4'
 services:
   pgadmin:
     image: dpage/pgadmin4
+    restart: always
     depends_on:
       - postgres
     environment:
@@ -29,3 +30,4 @@ volumes:
     driver: local
   postgres:
     driver: local
+
